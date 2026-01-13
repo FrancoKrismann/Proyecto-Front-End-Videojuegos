@@ -1,0 +1,64 @@
+.container{
+    padding-top: 2em;
+    width: 100%;
+
+}
+.reviewContent{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding-bottom: 2.5em;
+    width: 100%;
+    
+}
+.reviewContent button{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    margin-left: 50px;
+    height: 30px;
+    width: 70px;
+    background-color: #187515;
+    border-radius: 0.5em;
+    color: aliceblue;
+    font-family: 'Geologica', sans-serif;
+}
+.reviewContent button:hover{
+    cursor: pointer;
+    transition: 2;
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.2) -3px -3px 6px 1px inset;
+}
+.nameInfo{
+    display: flex;
+    font-size: medium;
+    align-items: center;
+}
+
+.letter{
+    border: 1px solid grey;
+    margin-right: 1em;
+    border-radius: 5em;
+    width: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(0, 0, 0, 0.32) 0px 2px 16px 0px;
+}
+
+.starsDate{
+    display: flex;
+    align-items: center;
+    margin-top: -1em;
+    margin-bottom: 0.5em;
+}
+.starsDate h4{
+    padding-left: 1em;
+}
+.starsDate div h1{
+    display: none;
+}
+.starsDate div div span svg{
+    font-size: 1em;
+    color: green;
+}
